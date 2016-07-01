@@ -5,5 +5,8 @@ import {Component} from 'angular2/core';
     templateUrl:'app/contact-form.component.html'
 })
 export class ContactFormComponent { 
+	onSubmit(form){
+		console.log(form);
+	}
 }
 
